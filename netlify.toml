@@ -1,0 +1,11 @@
+[functions]
+  node_bundler = "esbuild"
+
+[functions."snapshot_avis"]
+  schedule = "0 3 */2 * *"
+
+[functions."snapshot_rank"]
+  schedule = "20 6 * * 1"
+
+[functions."snapshot_rank_b"]
+  schedule = "23 6 * * 1"
